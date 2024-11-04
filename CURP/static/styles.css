@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e3f2fd; /* Fondo azul claro para el cuerpo */
+    color: #333;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff5722; /* Título en un color naranja vibrante */
+    margin-bottom: 30px;
+    font-size: 36px; /* Tamaño de fuente del título */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra suave para el título */
+}
+
+.contenido {
+    background-color: #fff; /* Fondo blanco para el formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.etiqueta {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.campos {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    font-size: 16px;
+}
+
+/* Colores vibrantes para los campos */
+#nombre {
+    background-color: #ffe0b2; /* Naranja suave */
+}
+
+#primerApellido {
+    background-color: #bbdefb; /* Azul claro */
+}
+
+#segundoApellido {
+    background-color: #e8f5e9; /* Verde suave */
+}
+
+#diaNacimiento {
+    background-color: #fff9c4; /* Amarillo claro */
+}
+
+#mesNacimiento {
+    background-color: #ffccbc; /* Rosa claro */
+}
+
+#anonacimiento {
+    background-color: #ffebee; /* Rosa suave */
+}
+
+#sexo {
+    background-color: #e3f2fd; /* Azul claro */
+}
+
+#estado {
+    background-color: #e8f5e9; /* Verde suave */
+}
+
+.campos:focus {
+    border-color: #ff5722; /* Color vibrante al enfocar */
+    outline: none;
+}
+
+.boton-primario {
+    background: linear-gradient(45deg, #ff5722, #ffcc00); /* Degradado atractivo */
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Efectos de transformación */
+    display: block;
+    margin: 20px auto; /* Centrar el botón */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+}
+
+.boton-primario:hover {
+    background: linear-gradient(45deg, #e64a19, #ffb300); /* Color más oscuro al pasar el ratón */
+    transform: scale(1.05); /* Efecto de aumento */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+}
+
+.salida {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ff5722; /* Borde colorido para el área de salida */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #ffcc80; /* Fondo suave para la salida */
+}
